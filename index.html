@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="eng">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assests/style/style.css">
+    <title>Calculadora 26 Agosto</title>
+
+</head>
+
+    <body >
+
+<div class="grid-container wallpaper">
+        <div class="Header"> 
+            <h1>Calculadora Version 2 </h1>
+            
+        </div>
+    
+    <div class="Contenido1">
+            <main>
+                <button id="switch" onclick="memoria('')">Switch</button><input type="hidden" id="edu"/> 
+
+                <table class="tg">
+                    <thead>
+                    <tr>
+                     <td class="tg-0lax" colspan="4">Resultado es: <p id="memoria" value="0" > </td>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        
+                        <td class="tg-ycr8" colspan="4"><p id="campoletra" class="campoTarea tema"></p></td> 
+                         
+                    </tr>
+                        
+                    <tr>
+                        <td class="tg-fwko"><button class="myButton" onclick="mem2('test')">MR</button></td>
+                        <td class="tg-fwko"><button class="myButton" onclick="mem1('test')">MC</button></td>
+                        <td class="tg-fwko"><button class="myButton" onclick="elevar('test')">x2</button></td>
+  
+                        <td class="tg-fwko"><button class="myButton"  value="c" onclick="teclaBorrar()" >Borrar</button></td>
+                        
+                    </tr>
+                    <tr>
+                        <td class="tg-fwko"><button class="myButton" onclick="xxxxx('test')">M+</button></td>
+                        <td class="tg-fwko"><button class="myButton" onclick="xxxxx('test')">M-</button></td>
+                        <td class="tg-fwko"><button class="myButton" onclick="xxxxx('test')">2rx</button></td>
+                        <td class="tg-fwko"><button class="myButton" value="/" onclick="dividir('test');setDividir('/');setNumber('/')";>/</button></td>
+                        
+                    </tr>
+                    </tr>
+
+                    <tr>
+                        <td class="tg-008x"><button class="myButton3 letra" value="7"  onclick="setLetter('7');setNumber('7')" >7</button></td>
+                        <td class="tg-008x"><button class="myButton3 letra" value="8"  onclick="setLetter('8');setNumber('8')">8</button></td>
+                        <td class="tg-008x"><button class="myButton3 letra3" value="9"  onclick="setLetter('9');setNumber('9')">9</button></td>
+                        <td class="tg-fwko"><button class="myButton" value="*" onclick="multiplicar('test');setMultiplicar('*');setNumber('*')">*</button></td>
+                    </tr>
+                    <tr>
+                        <td class="tg-008x"><button class="myButton3 letra" value="4" onclick="setLetter('4');setNumber('4')">4</button></td>
+                        <td class="tg-008x"><button class="myButton3 letra" value="5" onclick="setLetter('5');setNumber('5')">5</button></td>
+                        <td class="tg-008x"><button class="myButton3 letra" value="6" onclick="setLetter('6');setNumber('6')">6</button></td>
+                        <td class="tg-fwko"><button class="myButton" value="-" onclick="restar('test');setRestar('-');setNumber('-')";>-</button></td>
+                    </tr>
+                    <tr>
+                        <td class="tg-008x"><button class="myButton3 letra" value="1" onclick="setLetter('1');setNumber('1')">1</button></td>
+                        <td class="tg-008x"><button class="myButton3 letra" value="2" onclick="setLetter('2');setNumber('2')">2</button></td>
+                        <td class="tg-008x"><button class="myButton3 letra" value="3" onclick="setLetter('3');setNumber('3')">3</button></td>
+                        <td class="tg-fwko"><button class="myButton" value="+" onclick="sumar('test');setSuma('+');setNumber('+')">+</button></td>
+                    </tr>
+                    <tr>
+                        <td class="tg-008x"><button class="myButton3" onclick="setLetter('.')">.</button></td>
+                        <td class="tg-008x"><button class="myButton3 letra" onclick="setLetter('0');setNumber('0')">0</button></td>
+                        <td class="tg-008x"><button class="myButton3" onclick="setLetter('test')">+/-</button></td>
+                        <td class="tg-fwko"><button class="myButton" id="comprobar" onclick="solve()">=</button></td>
+                    </tr>
+                    </tbody>
+                    </table>
+
+
+            <script src="./assests/scripts/calculadora.js"></script>
+        </main>
+        
+    </div>
+
+        <div class="Footer">
+            <h3>                Wernher Reina  - Bictia 2020 <br> <br>
+
+            Correo: wernherreina@gmail.com
+            </h3>
+        </div>
+</div>
+    </body>
+
+
+</html>
